@@ -12,3 +12,4 @@ puma_allsites.eastern_only.vcf.gz_
 
 ## scripts
 * 01_edg_zip_filter.sh -> filter EDG's vcf to bialleleic snps and zip
+* 02_rename_edg_scaffolds.sh -> rename EDG scaffolds according to NCBI key
