@@ -17,5 +17,6 @@ puma_allsites.eastern_only.vcf.gz
 * 04a_merge_keepall.sh -> merge rwh and edg vcfs (keeps all edg sites and only rwh sites that appear in edg)
 * 04b_merge_intersect.sh -> merge rwh and edg vcfs (keeps only sites found in BOTH edg and rwh)
 * 05_filter_vcf.sh -> filter vcf files (requires name of zipped vcf as command line argument)
+* 06_fst.sh -> calculates fst (requires name of zipped quality filtered vcf as command line argument)
 
 * filter.hets.R -> filters by heterozygosity; required for script 05_filter_vcf.sh
