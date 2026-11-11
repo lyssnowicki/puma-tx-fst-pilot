@@ -15,3 +15,4 @@ puma_allsites.eastern_only.vcf.gz
 * 02_rename_edg_scaffolds.sh -> rename EDG scaffolds according to NCBI key
 * 03_check_site_agreement.sh -> check for sites in EDG that are not in RWH and create a subsetted vcf from RWH all sites that only includes sites in EDG
 * 04a_merge_keepall.sh -> merge rwh and edg vcfs (keeps all edg sites and only rwh sites that appear in edg)
+* 04b_merge_intersect.sh -> merge rwh and edg vcfs (keeps only sites found in BOTH edg and rwh)
